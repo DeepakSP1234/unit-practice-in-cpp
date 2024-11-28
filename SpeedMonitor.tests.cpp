@@ -15,6 +15,7 @@ public:
   string write_Msg_ArgValue = "";
   void write(const string& msg){
     write_Msg_ArgValue = msg;
+    writeCallCount++ ;
   }
 };
 
