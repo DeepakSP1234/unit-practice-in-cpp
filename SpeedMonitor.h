@@ -16,4 +16,7 @@ class SpeedMonitor {
                                                                                     _speedSensorInstance{speedSensorInstance},
                                                                                     _cloudCommunicatorInstance{cloudCommunicatorInstance}{}
         void monitor();
+        int getSpeedThreshold()
+        { return this->_speedThreshold;}
+    
 };
